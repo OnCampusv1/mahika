@@ -16,7 +16,7 @@ export function Screen3({ onContinue }: ScreenProps) {
         className="space-y-8 max-w-md"
       >
         <h2 className="text-3xl font-serif text-zinc-800">
-          Baby, I <LongPressWord word="love" reveal="I still don't know if this is love. I just know I don't want to lose this." /> you baby.
+          baby i <LongPressWord word="love" reveal="I still don't know if this is love. I just know I don't want to lose this." /> you baby.
         </h2>
         
         <motion.p 
@@ -46,3 +46,4 @@ export function Screen3({ onContinue }: ScreenProps) {
     </div>
   );
 }
+
